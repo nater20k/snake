@@ -1,6 +1,6 @@
 <script lang="ts">
   import {onMount} from 'svelte';
-  type travelDirections = 'Up' | 'Down' | 'Left' | 'Right' | 'Up';
+  type travelDirections = 'Up' | 'Down' | 'Left' | 'Right';
 
   let score = 0;
   let snakeHead: HTMLElement;
